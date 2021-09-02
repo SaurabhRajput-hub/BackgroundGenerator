@@ -1,10 +1,12 @@
 {
   "name": "backgroundgenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generates cool background.",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,5 @@
   "bugs": {
     "url": "https://github.com/SaurabhRajput-hub/BackgroundGenerator/issues"
   },
-  "homepage": "https://github.com/SaurabhRajput-hub/BackgroundGenerator#readme"
+  "homepage": "https://github.com/SaurabhRajput-hub/BackgroundGenerator"
 }
